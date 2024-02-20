@@ -1,0 +1,45 @@
+@use 'variaveis';
+
+
+.plans{
+    padding: 5.6vw;
+
+    h2{
+        text-align: center;
+    }
+
+    &__list{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+
+
+    &__item{
+        padding: 56px 44px;
+        width: 360px;
+        text-align: center;
+        
+        &:nth-child(2){
+            background-image: url(/src/images/fundo_combo_plus.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        
+        
+        img{
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        strong{
+            margin-bottom: 15px;
+        }
+
+        p{
+            margin-bottom: 20px;
+        }
+
+    }
+
+}
